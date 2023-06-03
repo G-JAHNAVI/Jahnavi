@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible"
+  content="IE=edge">
+ <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+ <title>Survey Form using HTML</title>
+</head>
+<body style="background-color: #15d9fc63;">
+ <h1 align="center" style="color: #0ad335;">Survey Form</h1>
+ <form id="form">
+  <div class="form-control">
+   <label for="name" id="label-name">Name:</label>
+   <input type="text" id="name" placeholder="Enter your name" /><br><br>
+  </div>
+  <div class="form-control">
+   <label for="email" id="label-email">Email:</label>
+   <input type="email" id="email" placeholder="Enter your email" /><br><br>
+  </div>
+  <div class="form-control">
+   <label for="contact number" id="label-phone number">Phone Number:</label>
+   <input type="text" id="contact number" placeholder="Enter your phone number" /><br><br>
+  </div>
+  <div class="form-control">
+   <label for="college name" id="label-college name">College name:</label>
+   <input type="text" id="college name" placeholder="your answer" /><br>
+  </div><br><br>
+  <div class="form-control">
+   <label for="role" id="label-role"> Which option best describes you?</label>
+   <select name="role" id="role">
+    <option value="student">Student</option>
+    <option value="intern">Intern</option>
+    <option value="professional">Professional</option>
+    <option value="other">Other</option>
+   </select>
+  </div><br>
+  <div class="form-control">
+    <label for="role" id="label-role"> Do you like programming languages?</label>
+    <select name="role" id="role">
+     <option value="student">Yes</option>
+     <option value="intern">No</option>
+    </select>
+   </div><br>
+  <div class="form-control">
+   <label> Are you looking for internship?</label><br>
+   <label for="recommed-1">
+    <input type="radio"id="recommed-1"name="recommed">Yes</input>
+   </label>
+   <label for="recommed-2">
+    <input type="radio"id="recommed-2"name="recommed">No</input>
+   </label>
+   <label for="recommed-3">
+    <input type="radio"id="recommed-3"name="recommed">Maybe</input>
+   </label>
+  </div><br><br>
+  <br>
+  <div class="form-control">
+   <label>Gender:</label><br>
+   <label for="recommed-1">
+    <input type="radio"id="recommed-1"name="recommed">Male</input>
+   </label>
+   <label for="recommed-2">
+    <input type="radio"id="recommed-2"name="recommed">Female</input>
+   </label>
+   <label for="recommed-3">
+    <input type="radio"id="recommed-3"name="recommed">Other</input>
+   </label>
+  </div><br><br>
+  <div class="form-control">
+   <label>Interested course:</label><br>
+   <br>
+   <label for="inp-1">
+    <input type="checkbox"name="inp">C</input></label><br>
+   <label for="inp-2">
+    <input type="checkbox"name="inp">C++</input></label><br>
+   <label for="inp-3">
+    <input type="checkbox"name="inp">Web Development</input></label><br>
+   <label for="inp-4">
+    <input type="checkbox"name="inp">Java</input></label><br>
+   <label for="inp-5">
+    <input type="checkbox"name="inp">Python</input></label><br>
+   <label for="inp-6">
+    <input type="checkbox"name="inp">JavaScript</input></label><br>
+   <label for="inp-7">
+    <input type="checkbox"name="inp">FullStack web Development</input></label><br>
+  </div><br>
+  <div class="form-control">
+   <label for="comment">Any  Comments or Suggestions: <small></small></label><br><br>
+   <textarea name="comment" id="comment"placeholder="Enter here"></textarea>
+  </div><br><br>
+  <div class="button">
+   <button type="reset" value="reset" id="reset" style="background-color: lime;">Reset</button> 
+   <button type="submit" value="submit" id="submit" style="background-color: crimson;">Submit</button>
+  </div>
+ </form>
+</body>
+</html>
